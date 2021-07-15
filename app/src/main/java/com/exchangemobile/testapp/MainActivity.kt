@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
             application,
             "ddd8d772-edf2-4162-b29a-64794dea8ffa",
             Analytics::class.java,
-            Crashes::class.java
+            Crashes::class.java,
+            Distribute::class.java
         )
 
         event.setOnClickListener {
